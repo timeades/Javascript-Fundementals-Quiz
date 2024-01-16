@@ -72,7 +72,7 @@ function startQuiz() {
   
       // Subtract 1 second from the timer
       timer--;
-    }, 1000);
+    }, 100);
   
     // Display the first question
     displayQuestion();
