@@ -30,6 +30,8 @@ function startQuiz() {
       if (currentQuestion.choices[choiceIndex] === currentQuestion.answer) {
         // Correct answer
         document.getElementById('feedback').textContent = 'Correct!';
+        // Add 10 seconds to the timer (modify as needed)
+        timer += 10;
       } else {
         // Incorrect answer, subtract time
         document.getElementById('feedback').textContent = 'Incorrect!';
