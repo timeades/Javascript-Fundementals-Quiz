@@ -13,6 +13,6 @@ The timer starts at 100 seconds and the increments up or down are in 10 second u
 * Clone the repository
 * Open the index.html file in your browser.
 
-or you can view a deployed version here: https://timeades.github.io/****
+or you can view a deployed version here: https://timeades.github.io/Javascript-Fundementals-Quiz/
 
 
