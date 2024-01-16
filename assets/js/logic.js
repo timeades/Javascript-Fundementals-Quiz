@@ -5,7 +5,7 @@ function startQuiz() {
   
     // Initialize variables
     let currentQuestionIndex = 0;
-    let timer = 1000;
+    let timer;
   
     // Function to display current question
     function displayQuestion() {
@@ -72,7 +72,7 @@ function startQuiz() {
   
       // Subtract 1 second from the timer
       timer--;
-    }, 1000);
+    }, 100);
   
     // Display the first question
     displayQuestion();
